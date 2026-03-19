@@ -1,13 +1,19 @@
 # Adaptive Coding Switching Algorithm
 
 ## 📌 Overview
-This project implements an adaptive algorithm that dynamically switches between LDPC and Polar coding techniques based on real-time Signal-to-Noise Ratio (SNR).
+Developed an adaptive communication algorithm that dynamically switches between LDPC and Polar coding techniques based on real-time Signal-to-Noise Ratio (SNR) to optimize transmission performance.
 
-## 🚀 Features
+## 🚀 Key Features
 - Dynamic switching between LDPC and Polar codes
+- Real-time SNR-based decision making
 - Bit Error Rate (BER) analysis
 - Throughput optimization under varying channel conditions
-- Simulation of realistic communication scenarios
+
+## 🧠 Technical Approach
+- Implemented channel simulation with varying SNR
+- Designed decision logic for adaptive coding selection
+- Evaluated performance using BER and throughput metrics
+- Compared efficiency of coding schemes under different scenarios
 
 ## 🛠 Tech Stack
 - Python
@@ -15,20 +21,18 @@ This project implements an adaptive algorithm that dynamically switches between 
 
 ## 📊 Results
 - Improved transmission reliability
-- Optimized throughput based on channel conditions
-- BER and throughput visualizations
+- Reduced Bit Error Rate (BER)
+- Enhanced throughput efficiency
+- Generated visual performance graphs
 
 ## 📁 Project Structure
-- `main.py` – Main execution file
+- `main.py` – Main execution
 - `ldpc_coding.py` – LDPC implementation
-- `polar_coding.py` – Polar coding implementation
-- `modulation.py` – Modulation techniques
-- `utils.py` – Utility functions
-- `results/` – Graphs and output plots
+- `polar_coding.py` – Polar coding
+- `modulation.py` – Modulation logic
+- `utils.py` – Helper functions
+- `results/` – Output graphs
 
 ## ▶️ How to Run
-1. Clone the repository
-2. Install required libraries
-3. Run:
 ```bash
 python main.py
