@@ -36,3 +36,8 @@ Developed an adaptive communication algorithm that dynamically switches between 
 ## ▶️ How to Run
 ```bash
 python main.py
+
+## 👩‍💻 Author
+Nunemunthala Sreeja  
+GitHub: https://github.com/sreeja0811-cell  
+LinkedIn: https://www.linkedin.com/in/sreeja-nunemunthala-340b00297
